@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+*.zip
+
+# Local notes (不提交个人精读笔记)
+notes/
+*.local.md
