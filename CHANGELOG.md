@@ -2,6 +2,14 @@
 
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)：行为变更升 minor，措辞与排版修订升 patch。
 
+## [1.1.1] — 2026-10-25
+
+### 变更
+
+- README 增加真实输出截图（`assets/screenshot-output.png`），仓库首页即可看到单句四段式的成品样貌
+- LICENSE 版权持有人由 `cet4-reading-tutor contributors` 改为 `Zywoo (uureii)`
+- README 安装命令中的用户名占位符 `<your-name>` 替换为真实仓库地址
+
 ## [1.1.0] — 2026-10-25
 
 ### 新增
