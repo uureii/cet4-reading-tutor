@@ -2,6 +2,18 @@
 
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)：行为变更升 minor，措辞与排版修订升 patch。
 
+## [1.1.2] — 2026-10-26
+
+### 修复（文档口径统一）
+- 统一验收用例数量为 4 个（前 3 必跑 + 第 4 超长输入选做）：`SKILL.md` 资源表、`tests/cases.md` 开头同步修正
+- README 工作流步数描述「五步」→「六步」，与 `SKILL.md` 的 Step 0–5 对齐
+- `assets/sample-output.md` 措辞「未经授权问题」→「不涉及第三方版权」
+- `references/vocab-tiers.md` 基准线（约 3000 词下限）与默认学习者画像 3500–4500 对齐，消除数字歧义
+
+### 变更（默认行为澄清，非新功能）
+- 默认改为**连续输出**，不在每块末尾问「是否继续」；仅在用户主动打断或要求暂停时停（`SKILL.md` 节奏控制、`assets/sample-output.md` 收口示例、`references/output-template.md` 反例对照、README 对比表同步更新）
+- 纯文本输入明确「仍按句编号（1.1 / 1.2…），不整段复述用户原文」
+
 ## [1.1.1] — 2026-10-25
 
 ### 变更
